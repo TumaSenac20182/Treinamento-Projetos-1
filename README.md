@@ -1,4 +1,4 @@
-# Treinamento-Projetos-1
+# Projeto-turma-2018.2-1
 Esse repositório vai servir para nós termos um controle de quem edita e envia os códigos e também irá facilitar a transição
 dos dados do projeto, evitando que alguém faça um trabalho que outra pessoa já concluiu.
 

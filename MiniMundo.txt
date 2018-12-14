@@ -1,0 +1,24 @@
+	um projeto de futebol deseja um sistema de cadastro de alunos.
+o proejto tem times masculinos e femininos de futebol,  onde os jogadores são classificados de acordo com a idade e e sexo.
+
+	Os funcionarios do projeto necessitam das opção de adiconar jogadores, alterar seus dados e excluir. futuramente a mesma precisara de marcação de presença onde apos 3 faltas seguidas o jogador é bloqueado e só sera liberado apos justificativa.
+
+o sistema deve cadastrar data e hora dos treinos assim como jogos, o sistema de presença devara ter a opção de alocar quantidade X de jogadores para jogos e marca sua falta se assim ocorrer.
+
+o cadastro de jogadores é composto por nome, idade, sexo, endereço, contato, categoria e percentual de presença, alem de nome RG e contato do responsavel do jogador.
+
+o cadastro de funcionarios é composto por nome,endereço,cargo, e-mail e contato.
+
+as categorias são 
+SUB 11, SUB 13, SUB 15 e SUB 17 
+
+sendo assim
+(Sub 11) Competição formada por 36 equipes com atletas que completam 9, 10 ou 11 anos,
+
+(Sub 13) Competição formada por 36 equipes com atletas que completam 12 e 13 anos,
+
+(Sub 15) Competição formada por 69 equipes com atletas que completam 13, 14 e 15 anos,
+
+(Sub 17) Competição formada por 69 equipes com atletas que completam 15, 16 e 17 anos 
+
+apos o jogador não se encaixar em uma categoria seu cadastro será excluido pois e o mesmo não ira mais fazer parte do projeto.
