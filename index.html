@@ -20,24 +20,34 @@
           margin-top: 5%;
           font-size: 300%;
           text-align: center;
-          font-family: serif;
+          font-family: fantasy;
+        }
+
+        #label {
+          font-size: 125%;
+        }
+
+        .cpht {
+          margin-top: 17.5%;
+          text-align: center;
         }
       </style>
   </head>
   <body>
     <div class="conteiner-fluid">
       <p class="title">Login</p>
-      <form action="verif.php" method="post" class="col-6 offset-3">
+      <form action="verif.php" method="post" class="col-4 offset-4">
         <div class="form-group">
-          <label for="Iemail">Email</label>
+          <label id="label" for="Iemail">Email</label>
           <input type="email" class="form-control" name="Nemail" id="Iemail" aria-describedby="emailHelp" placeholder="Informe seu email">
         </div>
         <div class="form-group">
-          <label for="Isenha">Senha</label>
+          <label id="label" for="Isenha">Senha</label>
           <input type="password" class="form-control" name="Nsenha" id="Isenha" placeholder="Informe sua senha">
         </div>
         <button type="submit" class="btn btn-dark">Entrar</button>
       </form>
+      <p class="cpht">Copyright (c) 2018 andremarzo</p>
 
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -45,3 +55,4 @@
     </div>
   </body>
 </html>
+
