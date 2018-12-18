@@ -13,9 +13,11 @@ As linguens que serão trabalhadas são:
 - JavaScript
 - CSS
 - MySQL (SGBD)
+- alteração do fabiano pediu
 
 Futuramente poderá ser feito um update para JAVA.
 
 O objetivo desse projeto é criar um sistema empresarial funcional e com a segurança adequada.
 
 Obrigado a todos que participarem.
+
