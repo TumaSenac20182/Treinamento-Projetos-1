@@ -22,3 +22,5 @@ sendo assim
 (Sub 17) Competição formada por 69 equipes com atletas que completam 15, 16 e 17 anos 
 
 apos o jogador não se encaixar em uma categoria seu cadastro será excluido pois e o mesmo não ira mais fazer parte do projeto.123
+
+Yan é o Jump Temporal neguinho.
