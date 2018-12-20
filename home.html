@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Home</title>
+
+    <style>
+      body {
+        background: #363636;
+        background: -webkit-linear-gradient(to bottom, #CFCFCF, #363636);
+        background: linear-gradient(to bottom, #CFCFCF, #363636);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        }
+
+      .head {
+        width: 100%;
+        text-align: center;
+        margin-top: 3%;
+      }
+
+      #title {
+        font-size: 300%;
+        color: #4F4F4F;
+        font-family: cursive;
+      }
+
+      #modal {
+        margin-left: 52%;
+      }
+
+      #search {
+        margin-left: 2%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="conteiner-fluid">
+      <div class="head">
+        <p id="title">Bem Vindo!</p>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+              <img src="https://logodownload.org/wp-content/uploads/2014/10/senac-logo-2.png" width="50" height="30" class="d-inline-block align-top" alt="">
+            </a>
+          </nav>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">a</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">b</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">c</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">d</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">e</a>
+              </li>
+            </ul>
+            <div id="modal">
+              <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Login</button>
+
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form action="verifLog.php" method="post" class="col-8 offset-2">
+                        <div class="form-group">
+                          <label id="label" for="Iemail">Email</label>
+                          <input type="email" class="form-control" name="Nemail" id="Iemail" aria-describedby="emailHelp" placeholder="Informe seu email">
+                        </div>
+                        <div class="form-group">
+                          <label id="label" for="Isenha">Senha</label>
+                          <input type="password" class="form-control" name="Nsenha" id="Isenha" placeholder="Informe sua senha">
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                      <button type="button" class="btn btn-primary">Entrar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <form class="form-inline" id="search">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+          </div>
+        </nav>
+      </div>
+      <div class="mid">
+
+      </div>
+
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </div>
+  </body>
+</html>
