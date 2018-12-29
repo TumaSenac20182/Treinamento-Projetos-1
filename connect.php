@@ -1,7 +1,13 @@
 <?php
 
   function Connection() {
-    $link = mysqli_connect('localhost', 'root', '', 'ProjetoTurma20181', '3306');
+    $server = "localhost";
+    $user = "root";
+    $password = "";
+    $database = "ProjetoTurma20181";
+    $port = "3306";
+
+    $link = mysqli_connect($server, $user, $password, $database, $port);
     mysqli_set_charset($link, 'utf8');
 
     return $link;
