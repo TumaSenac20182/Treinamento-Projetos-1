@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+      body {
+        background: #363636;
+        background: -webkit-linear-gradient(to bottom, #CFCFCF, #363636);
+        background: linear-gradient(to bottom, #CFCFCF, #363636);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        }
+
+      .head {
+        width: 100%;
+        text-align: center;
+        margin-top: 3%;
+      }
+
+      #modal {
+        margin-left: 25%;
+        margin-right: 1%;
+      }
+
+      #search {
+        margin-left: 2%;
+      }
+
+      .mid {
+        width: 100%;
+      }
+
+      #noticias {
+        margin-top: 3%;
+        border: 1px solid #363636;
+        border-radius: 30px;
+      }
+
+      #outrasCoisas {
+        margin-top: 3%;
+        border: 1px solid #363636;
+        border-radius: 30px;
+      }

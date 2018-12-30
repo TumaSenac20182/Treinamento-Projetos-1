@@ -1,3 +1,7 @@
+<?php
+session_start();
+
+?>
 <!doctype html>
 <html lang="pt-br">
   <head>
@@ -5,49 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
     <title>Home</title>
-
-    <style>
-      body {
-        background: #363636;
-        background: -webkit-linear-gradient(to bottom, #CFCFCF, #363636);
-        background: linear-gradient(to bottom, #CFCFCF, #363636);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        }
-
-      .head {
-        width: 100%;
-        text-align: center;
-        margin-top: 3%;
-      }
-
-      #modal {
-        margin-left: 25%;
-        margin-right: 1%;
-      }
-
-      #search {
-        margin-left: 2%;
-      }
-
-      .mid {
-        width: 100%;
-      }
-
-      #noticias {
-        margin-top: 3%;
-        border: 1px solid #363636;
-        border-radius: 30px;
-      }
-
-      #outrasCoisas {
-        margin-top: 3%;
-        border: 1px solid #363636;
-        border-radius: 30px;
-      }
-    </style>
   </head>
   <body>
     <div class="conteiner-fluid">
@@ -77,6 +40,7 @@
             <div id="modal">
               <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#ImodalAluno">Área do aluno</button>
 
+
               <div class="modal fade" id="ImodalAluno" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
@@ -87,7 +51,7 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      <form action="verifLogAluno.php" method="post" class="col-8 offset-2" id="singin">
+                      <form action="login.php" method="post" class="col-8 offset-2" id="singin">
                         <div class="form-group">
                           <label id="label" for="Iemail">Email</label>
                           <input type="email" class="form-control" name="Nemail" id="Iemail" aria-describedby="emailHelp" placeholder="Informe seu email">
@@ -119,7 +83,7 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      <form action="verifLogProf.php" method="post" class="col-8 offset-2" id="singin">
+                      <form action="login.php" method="post" class="col-8 offset-2" id="singin">
                         <div class="form-group">
                           <label id="label" for="Iemail">Email</label>
                           <input type="email" class="form-control" name="Nemail" id="Iemail" aria-describedby="emailHelp" placeholder="Informe seu email">
