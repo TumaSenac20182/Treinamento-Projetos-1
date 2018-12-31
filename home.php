@@ -51,7 +51,7 @@ session_start();
                       </button>
                     </div>
                     <div class="modal-body">
-                      <form action="painel.php" method="post" class="col-8 offset-2" id="singin">
+                      <form action="login.php" method="post" class="col-8 offset-2" id="singin">
                         <div class="form-group">
                           <label id="label" for="Iemail">Email</label>
                           <input type="email" class="form-control" name="Nemail" id="Iemail" aria-describedby="emailHelp" placeholder="Informe seu email">
@@ -62,8 +62,8 @@ session_start();
                         </div>
                     </div>
                     <div class="modal-footer">
-                      <button type="close" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                       <button type="submit" for="singin" class="btn btn-primary">Entrar</button>
+                      <button type="close" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                     </div>
                   </form>
                   </div>
@@ -83,7 +83,7 @@ session_start();
                       </button>
                     </div>
                     <div class="modal-body">
-                      <form action="painel.php" method="post" class="col-8 offset-2" id="singin">
+                      <form action="login.php" method="post" class="col-8 offset-2" id="singin">
                         <div class="form-group">
                           <label id="label" for="Iemail">Email</label>
                           <input type="email" class="form-control" name="Nemail" id="Iemail" aria-describedby="emailHelp" placeholder="Informe seu email">
@@ -94,8 +94,8 @@ session_start();
                         </div>
                     </div>
                     <div class="modal-footer">
-                      <button type="close" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                       <button type="submit" for="singin" class="btn btn-primary">Entrar</button>
+                      <button type="close" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                     </div>
                   </form>
                   </div>
