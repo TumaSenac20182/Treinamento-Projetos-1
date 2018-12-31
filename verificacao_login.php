@@ -1,8 +1,12 @@
 <?php
+/*
 
-session_start();
+pagina foi comentada para achar  o erro.
+SESSION_START();
 
-if(!$_session['Nemail']){
+if(!$_SESSION['Nemail'])
+{
   header('location: home.php');
   exit;
 }
+*/
