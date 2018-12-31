@@ -62,8 +62,8 @@ session_start();
                         </div>
                     </div>
                     <div class="modal-footer">
-                      <button type="close" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                       <button type="submit" for="singin" class="btn btn-primary">Entrar</button>
+                      <button type="close" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                     </div>
                   </form>
                   </div>
@@ -103,8 +103,8 @@ session_start();
               </div>
             </div>
             <form class="form-inline" id="search">
-              <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
               <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Buscar</button>
+              <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
             </form>
           </div>
         </nav>
