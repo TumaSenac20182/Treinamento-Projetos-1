@@ -107,6 +107,9 @@ session_start();
               <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Buscar</button>
             </form>
           </div>
+          <form action="cadastro.html">
+          <button type="submit" class="btn btn-dark" data-toggle="modal">Cadastro</button>
+          </form>
         </nav>
       </div>
       <div class="mid">
