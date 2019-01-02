@@ -10,7 +10,7 @@ session_start();
  $email = mysqli_real_escape_string(getconnect(), $_POST['Nemail']);
  $senha = mysqli_real_escape_string(getconnect(), $_POST['Nsenha']);
 
- $query = "select id_login, email from tb_login where email = '{$email}' and senha = '{$senha}'";
+ $query = "select*from tb_login where email ='{$email}' and senha='{$senha}'";
 
  $result = mysqli_query(getconnect(), $query);
 
@@ -21,8 +21,9 @@ session_start();
     header('location: painel.php');
     exit;
  }
- else {
+ else
+  {
     $_SESSION['nao_autenticada'] = true;
-    echo "Usuário ou senha incorretos";
+    header('location: painel.php');
     exit;
  }
