@@ -1,4 +1,4 @@
-<?php
+  <?php
 session_start();
 
 ?>
@@ -21,7 +21,7 @@ session_start();
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-top: 3%;">
           <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="home.php">
               <img src="https://logodownload.org/wp-content/uploads/2014/10/senac-logo-2.png" width="50" height="30" class="d-inline-block align-top" alt="">
             </a>
           </nav>
@@ -37,11 +37,10 @@ session_start();
                 <a class="nav-link" href="contato.html">Fale conosco</a>
               </li>
             </ul>
-            <div id="modal">
+            <div id="modalAluno">
               <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#ImodalAluno">Área do aluno</button>
 
-
-              <div class="modal fade" id="ImodalAluno" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal fade" id="ImodalAluno" tabindex="-1" role="dialog" aria-labelledby="Área do aluno" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -62,15 +61,15 @@ session_start();
                         </div>
                     </div>
                     <div class="modal-footer">
-                      <button type="submit" for="singin" class="btn btn-primary">Entrar</button>
-                      <button type="close" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                      <button type="submit" for="singin" class="btn btn-dark">Entrar</button>
+                      <button type="close" class="btn btn-dark" data-dismiss="modal">Fechar</button>
                     </div>
                   </form>
                   </div>
                 </div>
               </div>
             </div>
-            <div>
+            <div id="modalProf">
               <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#ImodalAluno">Área do Professor</button>
 
               <div class="modal fade" id="ImodalAluno" tabindex="-1" role="dialog" aria-labelledby="Área do professor" aria-hidden="true">
@@ -94,22 +93,24 @@ session_start();
                         </div>
                     </div>
                     <div class="modal-footer">
-                      <button type="submit" for="singin" class="btn btn-primary">Entrar</button>
-                      <button type="close" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                      <button type="submit" for="singin" class="btn btn-dark">Entrar</button>
+                      <button type="close" class="btn btn-dark" data-dismiss="modal">Fechar</button>
                     </div>
                   </form>
                   </div>
                 </div>
               </div>
             </div>
+            <div>
+              <form action="cadastro.html" method="post">
+                <button type="submit" class="btn btn-dark">Cadastrar</button>
+              </form>
+            </div>
             <form class="form-inline" id="search">
               <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
               <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Buscar</button>
             </form>
           </div>
-          <form action="cadastro.html">
-          <button type="submit" class="btn btn-dark" data-toggle="modal">Cadastro</button>
-          </form>
         </nav>
       </div>
       <div class="mid">
@@ -117,7 +118,7 @@ session_start();
           <div class="col-4" id="noticias" style="text-align: center;">
             <p>Notícias</p>
           </div>
-          <div class="col-8" id="outrasCoisas" style="text-align: center;">
+          <div class="col-7" id="outrasCoisas" style="text-align: center;">
             <p>resto</p>
           </div>
         </div>
