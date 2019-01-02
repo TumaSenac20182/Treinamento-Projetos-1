@@ -110,6 +110,11 @@ session_start();
           <form action="cadastro.html">
           <button type="submit" class="btn btn-dark" data-toggle="modal">Cadastro</button>
           </form>
+          <div style="margin-left: 1%;">
+          <form action="search.html">
+      <button class="btn btn-dark" style="margin: auto;">Pesquisar nome</button>
+      </form>
+    </div>
         </nav>
       </div>
       <div class="mid">
