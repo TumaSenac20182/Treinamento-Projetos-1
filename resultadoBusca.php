@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="utf-8">
-    <title></title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+    <title>Cadastro</title>
     <style>
 td, table
 {
@@ -13,8 +17,11 @@ td, table
     </style>
   </head>
   <body>
-    <div>
-      <table>
+  <div class="conteiner-fluid">
+        <figure style="margin-top: 2%;" class="col-sm-6 offset-sm-3 col-12">
+          <img src="https://logodownload.org/wp-content/uploads/2014/10/senac-logo-2.png" height="150" width="250" class="rounded mx-auto d-block" alt="Logo Senac Transparente">
+        </figure>
+        <table class="table table-striped table-hover mt-5 text-center">
         <thead>
           <tr>
             <th>ID</th>
@@ -46,7 +53,7 @@ td, table
               }
             } else {
           ?>
-                    <td colspan="4">Nome não localizado</td>
+                    <td colspan="5">Nome não localizado</td>
           <?php
               }
             }
@@ -54,5 +61,9 @@ td, table
         </tbody>
       </table>
     </div>
+    <div style="margin-left: 1%; margin-top:30%; bottom: 0; position: fixed;">
+      <form action="home.php">
+      <button class="btn btn-dark">Home</button>
+      </form>
   </body>
 </html>
