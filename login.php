@@ -10,7 +10,11 @@ session_start();
  $email = mysqli_real_escape_string(getconnect(), $_POST['Nemail']);
  $senha = mysqli_real_escape_string(getconnect(), $_POST['Nsenha']);
 
+<<<<<<< HEAD
  $query = "select id_login, email nome from tb_login where email = '{$email}' and senha = '{$senha}'";
+=======
+ $query = "select*from tb_login where email ='{$email}' and senha='{$senha}'";
+>>>>>>> 377fe728efe1a62c9c673df6567dbf3cc93ed90a
 
  $result = mysqli_query(getconnect(), $query);
 
@@ -21,8 +25,9 @@ session_start();
   header('location: cadastro.html');
   exit;
  }
- else {
+ else
+  {
     $_SESSION['nao_autenticada'] = true;
-    echo "Usuário ou senha incorretos";
+    header('location: painel.php');
     exit;
  }

@@ -111,10 +111,21 @@ session_start();
               <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Buscar</button>
             </form>
           </div>
+<<<<<<< HEAD
+=======
+          <form action="cadastro.html">
+          <button type="submit" class="btn btn-dark" data-toggle="modal">Cadastro</button>
+          </form>
+          <div style="margin-left: 1%;">
+          <form action="search.html">
+      <button class="btn btn-dark" style="margin: auto;">Pesquisar nome</button>
+      </form>
+    </div>
+>>>>>>> 377fe728efe1a62c9c673df6567dbf3cc93ed90a
         </nav>
       </div>
       <div class="mid">
-        <div class="row">
+        <div class="row" style="margin: auto;">
           <div class="col-4" id="noticias" style="text-align: center;">
             <p>Notícias</p>
           </div>

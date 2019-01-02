@@ -11,3 +11,20 @@ function insere($email, $nome, $senha)
 
     return false;
   }
+
+  function buscarNome($nome)
+  {
+    $link=getconnect();
+
+    $query = "select * from tb_login where nome like '%{$nome}%'";
+
+    $resultado=mysqli_query($link,$query);
+
+    $cadastro = array();
+
+    while ($varaux=mysqli_fetch_assoc($resultado))
+     {
+       array_push($cadastro, $varaux);
+     }
+     return $cadastro;
+    }
