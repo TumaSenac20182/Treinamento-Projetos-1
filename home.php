@@ -118,7 +118,7 @@ session_start();
         </nav>
       </div>
       <div class="mid">
-        <div class="row">
+        <div class="row" style="margin: auto;">
           <div class="col-4" id="noticias" style="text-align: center;">
             <p>Notícias</p>
           </div>
