@@ -26,7 +26,7 @@ session_start();
             </a>
           </nav>
           <div class="collapse navbar-collapse" id="IbarraNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" style="margin-right: 20%;">
               <li class="nav-item active">
                 <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
               </li>
@@ -37,7 +37,7 @@ session_start();
                 <a class="nav-link" href="contato.html">Fale conosco</a>
               </li>
             </ul>
-            <div id="modalAluno">
+            <div id="modalAluno" style="margin-left: 1%;">
               <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#ImodalAluno">Área do aluno</button>
 
               <div class="modal fade" id="ImodalAluno" tabindex="-1" role="dialog" aria-labelledby="Área do aluno" aria-hidden="true">
@@ -101,27 +101,18 @@ session_start();
                 </div>
               </div>
             </div>
-            <div>
+            <div style="margin-right: 1%;">
               <form action="cadastro.html" method="post">
                 <button type="submit" class="btn btn-dark">Cadastrar</button>
               </form>
             </div>
-            <form class="form-inline" id="search">
-              <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
-              <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Buscar</button>
-            </form>
+            <div>
+              <form class="form-inline" action="search.html" method="post">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar por nome" aria-label="Buscar">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Buscar</button>
+              </form>
+            </div>
           </div>
-<<<<<<< HEAD
-=======
-          <form action="cadastro.html">
-          <button type="submit" class="btn btn-dark" data-toggle="modal">Cadastro</button>
-          </form>
-          <div style="margin-left: 1%;">
-          <form action="search.html">
-      <button class="btn btn-dark" style="margin: auto;">Pesquisar nome</button>
-      </form>
-    </div>
->>>>>>> 377fe728efe1a62c9c673df6567dbf3cc93ed90a
         </nav>
       </div>
       <div class="mid">

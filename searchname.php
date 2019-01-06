@@ -25,11 +25,11 @@
             <tbody>
               <?php
                 require 'crud.php';
-      
+
                 if($_SERVER['REQUEST_METHOD'] === 'POST')
                 {
                   $nome = $_POST['Nnome'];
-      
+
                   if($listaNomes = buscaPorNome($nome)) {
                     foreach ($listaNomes as $linha) {
                 ?>
