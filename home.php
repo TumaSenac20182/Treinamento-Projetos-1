@@ -121,7 +121,7 @@ session_start();
             <p>Notícias</p>
           </div>
           <div class="col-7" id="outrasCoisas" style="text-align: center;">
-            <p>resto</p>
+            <p>Resto</p>
           </div>
         </div>
       </div>
