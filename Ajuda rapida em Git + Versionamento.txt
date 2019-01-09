@@ -2,15 +2,15 @@
 					     Aula de Versionamento. 
 -------------------------------------------------------------------------------------------------------------------
 
-GITHUB - é uma plataforma para projeto GIT. Ele é um lugar onde vi guardar diversos repositórios do GIT.
+GITHUB - é uma plataforma para projeto GIT. Ele é um lugar onde vai guardar diversos repositórios do GIT.
 
 GIT - é um versionador de repositorios. Todos arquivos que compoe aqueles projetos, são guardados. Ele não apagar os arquivos. (Só na versão anterior). *Funcionar como um Backup. Consegue recuperar dados, em um determinada datas, por exemplo.*
 
 Copia - é um retrato dos seus dados naquele momento.
 
-Backup mantém todo o historico dos seus arquivos/dados, em qualquer momento. PAra um determinada data, lugar. Sem que ele seja sobreposto. No caso você consegue recuperar um arquivo apagado/modificado.
+Backup mantém todo o historico dos seus arquivos/dados, em qualquer momento. Para uma determinada data, lugar. Sem que ele seja sobreposto. No caso você consegue recuperar um arquivo apagado/modificado.
 
-Comit -é quando tem certeza de que todas as alterações foram feitas. Isso garante a conscistencia do banco de dados.
+Comit -é quando tem certeza de que todas as alterações foram feitas. Isso garante a conscistência do banco de dados.
 Diferente do insert que a alteração é temporária. No comit é quando se há certeza.
 
  -------
