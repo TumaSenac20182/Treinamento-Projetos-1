@@ -3,32 +3,42 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
     <title>Cadastro</title>
+	
+	 <script>
+		function timer()
+		{
+        var d = new Date();
+        document.getElementById('date').innerHTML = d.toLocaleTimeString();
+       
+        setTimeout('timer()', 1000);
+		}
+	</script>
   </head>
-  <body>
+  <body onLoad="timer()">
     <div class="conteiner-fluid">
         <figure style="margin-top: 2%;" class="col-sm-6 offset-sm-3 col-12">
-          <img src="https://logodownload.org/wp-content/uploads/2014/10/senac-logo-2.png" height="150" width="250" class="rounded mx-auto d-block" alt="Logo Senac Transparente">
+          <img src="https://logodownload.org/wp-content/uploads/2014/10/senac-logo-2.png" height="160" width="260" class="rounded mx-auto d-block" alt="Logo Senac Transparente">
         </figure>
         <fieldset class="container-fluid text-center col-4 offset-4">
             <form action="insert.php" method="post">
              <div class="form-group">
-             <label id="label" for="Inome">Nome</label>
+             <label id="label" for="Inome"><b>Nome</b></label>
              <input type="name" class="form-control" name="Nnome" id="Inome" aria-describedby="nameHelp" placeholder="Informe seu nome">
             </div>
             <div class="form-group">
-                <label id="label" for="Iemail">Email</label>
+                <label id="label" for="Iemail"><b>Email</b></label>
                 <input type="email" class="form-control" name="Nemail" id="Iemail" aria-describedby="emailHelp" placeholder="Informe seu email">
               </div>
               <div class="form-group">
-                <label id="label" for="Isenha">Senha</label>
+                <label id="label" for="Isenha"><b>Senha</b></label>
                 <input type="password" class="form-control" name="Nsenha" id="Isenha" placeholder="Informe sua senha">
               </div>
-              <button type="submit" class="btn btn-dark">Registrar</button>
-            </form>
+              <button type="submit" class="btn btn-dark">Registrar-se</button>
+            </form>	
+			<div id="date" style="Color:white"></div>
           </fieldset>
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
